@@ -1,0 +1,34 @@
+{
+    "DESIGN_NAME": "GRC_TOP",
+
+    "VERILOG_FILES": [
+        "dir::src/GRC_DP.sv",
+        "dir::src/GRC_FSM.sv",
+        "dir::src/GRC_TOP.sv"
+    ],
+
+    "VERILOG_DEFINES": [
+        "DATA_WIDTH=16",
+        "X_WIDTH=5",
+        "U_WIDTH=8",
+        "LEN_WIDTH=5",
+        "OUT_WIDTH=24",
+        "STATE_WIDTH=5"
+    ],
+
+    "CLOCK_PORT": "SYS_CLOCK",
+    "CLOCK_PERIOD": 10,
+
+    "CTS_MAX_FANOUT": 8,
+    "SYNTH_STRATEGY": "DELAY 0",
+    "SYNTH_SIZING": true,
+    "SYNTH_MAX_FANOUT": 6,
+
+    "PL_RESIZER_DESIGN_OPTIMIZATIONS": true,
+    "PL_RESIZER_TIMING_OPTIMIZATIONS": true,
+    "GRT_RESIZER_DESIGN_OPTIMIZATIONS": true,
+    "GRT_RESIZER_TIMING_OPTIMIZATIONS": true,
+
+    "DRT_MIN_LAYER": "met1",
+    "DRT_MAX_LAYER": "met4"
+}
