@@ -36,4 +36,3 @@ A hardware implementation of a Golomb-Rice encoder in Verilog, taken from RTL th
 ## GDS Viewer
 
 - [View in 3D GDS Viewer](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/fahim-islam15/Golomb_Rice-style/master/GRC_TOP.gds)
-- [View in Tiny Tapeout Explorer](https://gds-explorer.tinytapeout.com/viewer.html?gds=https://raw.githubusercontent.com/fahim-islam15/Golomb_Rice-style/master/GRC_TOP.gds)
